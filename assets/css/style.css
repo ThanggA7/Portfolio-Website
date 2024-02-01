@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #0f1b4c;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "sora", sans-serif;
+}
+
+/* Common */
+.main-content {
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header */
+.header {
+  background-color: #fff;
+}
+
+.header.fixed {
+  position: sticky;
+  top: -10px;
+  z-index: 1;
+}
+.nav {
+  padding: 24px 0 24px 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+  margin-left: 245px;
+}
+.nav ul li {
+  padding: 16px;
+}
+
+.nav ul li a {
+  color: #000;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.4px;
+  text-transform: capitalize;
+}
+.nav .action {
+  cursor: pointer;
+  background-color: #000;
+  padding: 16px 20px;
+  margin-left: auto;
+  display: flex;
+  height: 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  gap: 8px;
+}
+
+.nav .action a {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+/* Hero */
+.hero .body {
+  margin-top: 60px;
+  display: flex;
+}
+
+.hero .body .info {
+  margin-top: 130px;
+  width: 46%;
+}
+
+.hero .body .media-block {
+  width: 54%;
+}
+
+.hero .hi {
+  color: #000;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
+
+.hero .name {
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
+
+.hero .mayjor {
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
+.hero .dev {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.96px;
+}
+
+.hero .basein {
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 56px; /* 116.667% */
+  letter-spacing: -0.96px;
+}
+
+.hero .country {
+  font-size: 4.8rem;
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
+
+.hero .desc {
+  margin-top: 32px;
+  color: #71717a;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+.hero .social {
+  margin-top: 78px;
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.hero .social .social-media {
+  padding: 16px;
+  border-radius: 4px;
+  border: 2px solid #000;
+}
+
+.hero .social .social-media:hover {
+  background-color: yellow;
+}
+
+/* skill */
+
+.skill {
+  margin-top: 120px;
+}
+.skill .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.skill .row .title {
+  color: #000;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
+.skill span {
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
