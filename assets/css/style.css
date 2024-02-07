@@ -295,6 +295,7 @@ a {
 /* project */
 
 .my-project {
+  margin-top: 60px;
   padding: 60px 80px;
   background-color: #000;
 }
