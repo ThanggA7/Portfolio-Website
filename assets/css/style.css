@@ -292,3 +292,28 @@ a {
   letter-spacing: 0.32px;
   margin-top: 20px;
 }
+/* project */
+
+.my-project {
+  background-color: Black;
+}
+.my-project .project {
+  gap: 104px;
+  display: flex;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.my-project .project .image-project {
+  width: 530px;
+  height: 397.735px;
+  flex-shrink: 0;
+}
+
+.my-project .project .title {
+  color: #fff;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.64px;
+}
