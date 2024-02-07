@@ -295,8 +295,10 @@ a {
 /* project */
 
 .my-project {
-  background-color: Black;
+  padding: 60px 80px;
+  background-color: #000;
 }
+
 .my-project .project {
   gap: 104px;
   display: flex;
@@ -304,16 +306,59 @@ a {
   margin-top: 20px;
 }
 
+.my-project .row-prj .title {
+  text-align: center;
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 400;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
+.my-project .row-prj {
+  padding: 20px;
+}
+.my-project .row-prj span {
+  color: #fff;
+  font-size: 4.8rem;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
+
 .my-project .project .image-project {
   width: 530px;
   height: 397.735px;
   flex-shrink: 0;
 }
-
+.my-project .project span {
+  color: #fff;
+  font-size: 4.8rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.16;
+  letter-spacing: -0.96px;
+}
 .my-project .project .title {
+  margin-top: 28px;
+  min-width: 582px;
   color: #fff;
   font-size: 3.2rem;
   font-weight: 700;
   line-height: 1.25;
   letter-spacing: -0.64px;
+}
+
+.my-project .project .desc {
+  min-width: 582px;
+  margin-top: 28px;
+  color: #71717a;
+  font-family: Sora;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.my-project .project .export {
+  margin-top: 28px;
 }
