@@ -326,6 +326,11 @@ a {
 }
 
 .my-project .project .image-project {
+  border-radius: 20px;
+
+  box-shadow:
+    0px 12px 42px -4px rgba(24, 39, 75, 0.12),
+    0px 8px 18px -6px rgba(24, 39, 75, 0.12);
   width: 530px;
   height: 397.735px;
   flex-shrink: 0;
@@ -361,4 +366,56 @@ a {
 
 .my-project .project .export {
   margin-top: 28px;
+}
+
+/* Testimonial */
+
+.testimonial {
+}
+
+.testimonial .row-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial .row-2 .avatar {
+  width: 96px;
+  height: 96px;
+  border-radius: 96px;
+  display: block;
+}
+
+.testimonial .row-2 .info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  width: 370px;
+  padding: 40px;
+  gap: 24px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow:
+    0px 8px 16px -6px rgba(24, 39, 75, 0.08),
+    0px 6px 8px -6px rgba(24, 39, 75, 0.12);
+}
+
+.testimonial .row-2 .desc {
+  color: #404040;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.25;
+  letter-spacing: 0.32px;
+  width: 290px;
+}
+.testimonial .row-2 .image {
+  position: relative;
+}
+.testimonial .row-2 .vector {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
