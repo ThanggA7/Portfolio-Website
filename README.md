@@ -1,1 +1,1 @@
-https://thangluunhu.xyz[nhuhthangluu]
+https://thangluunhu.xyz
