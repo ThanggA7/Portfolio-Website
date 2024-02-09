@@ -2,6 +2,7 @@ var qrCode = document.querySelector(".qr-code");
 var container = document.querySelector(".container");
 var btnOk = document.querySelector(".agree");
 var btnKhong = document.querySelector(".disagree");
+var maincontent = document.querySelector(".container");
 
 btnOk.addEventListener("click", function () {
   qrCode.style.display = "block";
