@@ -11,12 +11,5 @@ btnOk.addEventListener("click", function () {
 var btnKhong = document.querySelector(".disagree");
 
 btnKhong.addEventListener("click", function () {
-  var result = confirm("Bạn phải nhấn nút OK!");
-  if (result) {
-    // Người dùng đã nhấn nút OK
-    // Thực hiện hành động tương ứng tại đây
-  } else {
-    // Người dùng đã nhấn nút Cancel hoặc đã đóng hộp thoại
-    // Thực hiện hành động tương ứng tại đây
-  }
+  var result = confirm("Bấm nút OK đi hihi <3");
 });
