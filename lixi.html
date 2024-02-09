@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -15,9 +16,12 @@
       box-sizing: border-box;
     }
     body {
+      margin: 0;
       background: no-repeat center/cover url(./assets/img/backgroud.png);
+      background-size: cover;
+      background-attachment: fixed;
       font-family: "Fredoka", sans-serif;
-      height: 100vh;
+      min-height: 100vh;
       display: flex;
       align-items: center;
       text-align: center;
@@ -25,7 +29,7 @@
     }
 
     .container {
-      display: none;
+      display: block;
     }
     .container {
       background: rgba(244, 182, 158, 0.6);
@@ -77,7 +81,7 @@
     }
 
     .qr-code {
-      display: block;
+      display: none;
     }
 
     .qr-code .content-qr {
@@ -103,7 +107,52 @@
     .qr-code .info-bank {
       margin-top: 10px;
     }
+
+    .disagree:hover {
+    }
+
+    @media (max-width: 800px) {
+      .qr-code {
+        display: none;
+      }
+      .container {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+
+      .container .row {
+        gap: 50px;
+        margin-top: 50px;
+      }
+
+      .agree,
+      .disagree {
+        width: 80%;
+        padding: 20px 0;
+      }
+
+      .container .title {
+        font-size: 35px;
+      }
+
+      .qr-code .content-qr {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .qr-code .content-qr img {
+        width: 100px;
+        height: 100px;
+      }
+
+      .qr-code .content-qr .item-qr {
+        width: 85%;
+        padding: 30px;
+      }
+    }
   </style>
+
   <body>
     <div class="container">
       <div class="body">
@@ -143,5 +192,34 @@
         </div>
       </div>
     </div>
+    <script>
+      var qrCode = document.querySelector(".qr-code");
+      var container = document.querySelector(".container");
+      var btnOk = document.querySelector(".agree");
+      var btnKhong = document.querySelector(".disagree");
+
+      function swapButtons() {
+        var okPos = { top: btnOk.offsetTop, left: btnOk.offsetLeft };
+        var khongPos = { top: btnKhong.offsetTop, left: btnKhong.offsetLeft };
+
+        btnKhong.style.position = "absolute";
+        btnOk.style.position = "absolute";
+        btnKhong.style.transition = "0.5s";
+        btnOk.style.transition = "0.5s";
+        btnKhong.style.top = okPos.top + "px";
+        btnKhong.style.left = okPos.left + "px";
+        btnOk.style.top = khongPos.top + "px";
+        btnOk.style.left = khongPos.left + "px";
+      }
+      swapButtons();
+
+      btnKhong.addEventListener("mouseover", swapButtons);
+      btnKhong.addEventListener("click", swapButtons);
+
+      btnOk.addEventListener("click", function () {
+        qrCode.style.display = "block";
+        container.style.display = "none";
+      });
+    </script>
   </body>
 </html>
