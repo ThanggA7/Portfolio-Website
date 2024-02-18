@@ -242,7 +242,7 @@ a {
 }
 
 .about-me {
-  padding-top: 120px;
+  padding-top: 193px;
 }
 
 .about-me .body {
@@ -290,6 +290,7 @@ a {
 /* project */
 
 .my-project {
+  margin-top: 60px;
   padding: 60px 80px;
   background-color: #000;
 }
@@ -467,7 +468,7 @@ a {
 /* Contact */
 
 .contact {
-  padding: 60px 80px;
+  padding: 90px 80px;
 }
 
 .contact .contact-form {
