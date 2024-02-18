@@ -77,7 +77,7 @@ a {
 }
 /* Hero */
 .hero .body {
-  margin-top: 60px;
+  padding-top: 60px;
   display: flex;
 }
 
@@ -173,7 +173,7 @@ a {
 /* skill */
 
 .skill {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 .skill .row {
   display: flex;
@@ -242,7 +242,7 @@ a {
 }
 
 .about-me {
-  margin-top: 120px;
+  padding-top: 120px;
 }
 
 .about-me .body {
@@ -290,7 +290,6 @@ a {
 /* project */
 
 .my-project {
-  margin-top: 60px;
   padding: 60px 80px;
   background-color: #000;
 }
