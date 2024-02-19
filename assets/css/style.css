@@ -677,7 +677,7 @@ a {
   }
 
   .hero .info .desc {
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
   }
 
   .hero .media-block img {
@@ -716,7 +716,7 @@ a {
 
   .nav .action {
     padding: 12px 16px;
-    gap: 4px; 
+    gap: 4px;
   }
 
   /* Hero */
@@ -726,7 +726,7 @@ a {
 
   .hero .body .info {
     width: 100%;
-    margin-top: 20px; 
+    margin-top: 20px;
   }
 
   .hero .body .media-block {
@@ -739,17 +739,17 @@ a {
   .hero .dev,
   .hero .basein,
   .hero .country {
-    font-size: 3.6rem; 
+    font-size: 3.6rem;
   }
 
   .hero .desc {
     margin-top: 20px;
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
 
   .hero .social {
-    margin-top: 30px; 
-    gap: 16px; 
+    margin-top: 30px;
+    gap: 16px;
   }
 
   /* Skill */
@@ -758,15 +758,15 @@ a {
   }
 
   .skill .row .title {
-    font-size: 3.6rem; 
+    font-size: 3.6rem;
   }
 
   .skill span {
-    font-size: 3.6rem; 
+    font-size: 3.6rem;
   }
 
   .skill .mskill {
-    width: 100%; 
+    width: 100%;
   }
 
   /* About Me */
@@ -781,17 +781,17 @@ a {
   .about-me .media-block,
   .about-me .info-block {
     width: 100%;
-    margin-top: 20px; 
+    margin-top: 20px;
   }
 
   .about-me .info-block .title,
   .about-me .info-block span {
-    font-size: 3.6rem; 
+    font-size: 3.6rem;
   }
 
   .about-me .info-block .desc {
     width: 100%;
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
 
   /* My Project */
@@ -801,7 +801,7 @@ a {
 
   .my-project .project {
     flex-direction: column;
-    gap: 20px; 
+    gap: 20px;
   }
 
   .my-project .row-prj .title,
@@ -810,12 +810,12 @@ a {
   .my-project .project .title,
   .my-project .project .desc,
   .my-project .project .export {
-    font-size: 3.6rem; 
+    font-size: 3.6rem;
   }
 
   .my-project .project .image-project {
-    width: 100%; 
-    height: auto; 
+    width: 100%;
+    height: auto;
   }
 
   /* Testimonial */
@@ -825,11 +825,17 @@ a {
 
   .testimonial .row-1 .title,
   .testimonial .row-1 span {
-    font-size: 3.6rem; 
+    font-size: 3.6rem;
   }
 
   .testimonial .row-2 {
-    margin-top: 40px; 
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial .row-2 .desc::after {
+    display: none;
   }
 
   .testimonial .row-2 .info {
@@ -843,7 +849,7 @@ a {
 
   .testimonial .info .author,
   .testimonial .info span {
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
 
   .testimonial .row-2 .image {
@@ -872,22 +878,22 @@ a {
   }
 
   .contact .contact-form .social {
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
   }
 
   .contact .contact-form .btn {
-    width: 100%; 
+    width: 100%;
   }
 
   .contact .info-contact .title,
   .contact .info-contact span {
-    font-size: 3.6rem; 
+    font-size: 3.6rem;
   }
 
   .contact .info-contact .desc,
   .contact .info-contact .email,
   .contact .info-contact .tellphone {
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
 
   /* Footer */
@@ -897,6 +903,6 @@ a {
 
   .footer .info .cpr,
   .footer .info .author {
-    font-size: 1.4rem; 
+    font-size: 1.4rem;
   }
 }
