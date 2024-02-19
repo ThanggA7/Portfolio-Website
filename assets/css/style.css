@@ -677,7 +677,7 @@ a {
   }
 
   .hero .info .desc {
-    margin-bottom: 50px; /* Adjust margin for smaller screens */
+    margin-bottom: 50px; 
   }
 
   .hero .media-block img {
@@ -697,8 +697,206 @@ a {
   }
 
   .media-block img {
-    width: 100%; /* Change to 100% for responsiveness */
+    width: 100%;
   }
 
-  /* Additional adjustments for other elements as needed */
+  /* Header */
+  .header {
+    padding: 16px;
+  }
+
+  .nav ul {
+    margin-left: 0;
+    justify-content: space-around;
+  }
+
+  .nav ul li {
+    padding: 12px;
+  }
+
+  .nav .action {
+    padding: 12px 16px;
+    gap: 4px; 
+  }
+
+  /* Hero */
+  .hero .body {
+    padding-top: 30px;
+  }
+
+  .hero .body .info {
+    width: 100%;
+    margin-top: 20px; 
+  }
+
+  .hero .body .media-block {
+    width: 100%;
+  }
+
+  .hero .hi,
+  .hero .name,
+  .hero .mayjor,
+  .hero .dev,
+  .hero .basein,
+  .hero .country {
+    font-size: 3.6rem; 
+  }
+
+  .hero .desc {
+    margin-top: 20px;
+    font-size: 1.4rem; 
+  }
+
+  .hero .social {
+    margin-top: 30px; 
+    gap: 16px; 
+  }
+
+  /* Skill */
+  .skill {
+    padding-top: 60px;
+  }
+
+  .skill .row .title {
+    font-size: 3.6rem; 
+  }
+
+  .skill span {
+    font-size: 3.6rem; 
+  }
+
+  .skill .mskill {
+    width: 100%; 
+  }
+
+  /* About Me */
+  .about-me {
+    padding-top: 120px;
+  }
+
+  .about-me .body {
+    flex-direction: column;
+  }
+
+  .about-me .media-block,
+  .about-me .info-block {
+    width: 100%;
+    margin-top: 20px; 
+  }
+
+  .about-me .info-block .title,
+  .about-me .info-block span {
+    font-size: 3.6rem; 
+  }
+
+  .about-me .info-block .desc {
+    width: 100%;
+    font-size: 1.4rem; 
+  }
+
+  /* My Project */
+  .my-project {
+    padding: 40px;
+  }
+
+  .my-project .project {
+    flex-direction: column;
+    gap: 20px; 
+  }
+
+  .my-project .row-prj .title,
+  .my-project .row-prj span,
+  .my-project .project span,
+  .my-project .project .title,
+  .my-project .project .desc,
+  .my-project .project .export {
+    font-size: 3.6rem; 
+  }
+
+  .my-project .project .image-project {
+    width: 100%; 
+    height: auto; 
+  }
+
+  /* Testimonial */
+  .testimonial {
+    padding: 40px;
+  }
+
+  .testimonial .row-1 .title,
+  .testimonial .row-1 span {
+    font-size: 3.6rem; 
+  }
+
+  .testimonial .row-2 {
+    margin-top: 40px; 
+  }
+
+  .testimonial .row-2 .info {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .testimonial .row-2 .desc {
+    width: 100%;
+  }
+
+  .testimonial .info .author,
+  .testimonial .info span {
+    font-size: 1.4rem; 
+  }
+
+  .testimonial .row-2 .image {
+    display: none;
+  }
+
+  /* Contact */
+  .contact {
+    padding: 60px;
+  }
+
+  .contact .contact-form,
+  .contact .info-contact {
+    width: 100%;
+  }
+
+  .contact .body {
+    flex-direction: column;
+  }
+
+  .contact .contact-form .name,
+  .contact .contact-form .email,
+  .contact .contact-form .web,
+  .contact .contact-form .help {
+    width: 100%;
+  }
+
+  .contact .contact-form .social {
+    flex-wrap: wrap; 
+  }
+
+  .contact .contact-form .btn {
+    width: 100%; 
+  }
+
+  .contact .info-contact .title,
+  .contact .info-contact span {
+    font-size: 3.6rem; 
+  }
+
+  .contact .info-contact .desc,
+  .contact .info-contact .email,
+  .contact .info-contact .tellphone {
+    font-size: 1.4rem; 
+  }
+
+  /* Footer */
+  .footer {
+    padding: 16px 24px;
+  }
+
+  .footer .info .cpr,
+  .footer .info .author {
+    font-size: 1.4rem; 
+  }
 }
