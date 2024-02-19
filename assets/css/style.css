@@ -222,7 +222,6 @@ a {
   cursor: pointer;
   padding: 40px 0 20px;
   display: flex;
-  gap: 87px;
 }
 .skill .column-down .mskill {
   display: flex;
@@ -645,4 +644,44 @@ a {
   font-weight: 600;
   line-height: 1.25;
   letter-spacing: -0.32px;
+}
+.name {
+  transition: opacity 1s;
+}
+
+@media only screen and (max-width: 768px) {
+  .main-content {
+    width: 90%;
+  }
+
+  .hero .body {
+    flex-direction: column;
+  }
+
+  .hero .body .info,
+  .hero .body .media-block {
+    width: 100%;
+  }
+
+  .hero .info .desc {
+    margin-bottom: 100px;
+  }
+
+  .hero .media-block img {
+    display: none;
+  }
+  .skill .row-skill {
+    display: flex;
+    gap: 20px;
+  }
+  .skill .row-skill .column-top,
+  .skill .row-skill .column-down {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .media-block img {
+    width: 400px;
+  }
 }
