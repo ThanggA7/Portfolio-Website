@@ -672,7 +672,7 @@ a {
   }
   .skill .row-skill {
     display: flex;
-    gap: 7%;
+    gap: 2%;
   }
   .skill .row-skill .column-top,
   .skill .row-skill .column-down {
