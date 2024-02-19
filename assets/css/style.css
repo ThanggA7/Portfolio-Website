@@ -649,9 +649,22 @@ a {
   transition: opacity 1s;
 }
 
+/* Existing code remains unchanged */
+
 @media only screen and (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+  }
+
   .main-content {
     width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .nav ul {
+    margin-left: 0;
+    justify-content: space-around;
   }
 
   .hero .body {
@@ -664,16 +677,18 @@ a {
   }
 
   .hero .info .desc {
-    margin-bottom: 100px;
+    margin-bottom: 50px; /* Adjust margin for smaller screens */
   }
 
   .hero .media-block img {
     display: none;
   }
+
   .skill .row-skill {
     display: flex;
     gap: 2%;
   }
+
   .skill .row-skill .column-top,
   .skill .row-skill .column-down {
     gap: 20px;
@@ -682,6 +697,8 @@ a {
   }
 
   .media-block img {
-    width: 400px;
+    width: 100%; /* Change to 100% for responsiveness */
   }
+
+  /* Additional adjustments for other elements as needed */
 }
