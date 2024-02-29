@@ -28,7 +28,7 @@
                 <a href="#prj">Project</a>
               </li>
               <li class="nav__menu--item">
-                <a href="#!">Contact</a>
+                <a href="#ctc">Contact</a>
               </li>
               <li class="nav__menu--item">
                 <a href="#!">Summary</a>
@@ -229,7 +229,74 @@
           </div>
         </div>
       </div>
+      <section id="ctc" class="contact">
+        <div class="content">
+          <div class="contact-intro">
+            <h2 class="contact__title">Contact</h2>
+            <p class="section-lead">
+              Send me a message! Your email address will not be shared. Required
+              fields are marked with a
+              <span class="red-text">*</span>.
+            </p>
+          </div>
+
+          <div class="contact__form">
+            <form class="contact-form">
+              <div class="contact__row">
+                <fieldset id="contact-form-name">
+                  <label for="name">Name<span class="red-text">*</span></label>
+                  <input
+                    type="text"
+                    name="name"
+                    id="name"
+                    placeholder="Luu Nhu Thang"
+                    required
+                  />
+                </fieldset>
+                <fieldset id="contact-form-email">
+                  <label for="email"
+                    >Email<span class="red-text">*</span></label
+                  >
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    placeholder="nhuthang@example.com"
+                    required
+                  />
+                </fieldset>
+              </div>
+
+              <fieldset id="contact-form-message">
+                <label for="message"
+                  >Message<span class="red-text">*</span></label
+                >
+                <textarea
+                  name="message"
+                  id="message"
+                  placeholder="Dien vao day bat cu yeu cau gi ma ban muon !"
+                  cols="30"
+                  rows="18"
+                  required
+                ></textarea>
+              </fieldset>
+              <div id="form" class="contact__button">
+                <button id="submit" class="contact-form-submit" type="submit"></button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("-KVfjzEKUQRAURkP4");
+    </script>
+
     <script src="./assets/js/script.js"></script>
   </body>
 </html>

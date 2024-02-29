@@ -8,7 +8,7 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
   });
 });
 let nameElement = document.querySelector(".name");
-// Lấy tất cả các nút và thêm sự kiện click cho chúng
+
 var btns = document.querySelectorAll(".button");
 btns.forEach(function (btn) {
   btn.addEventListener("click", filterProjects);
