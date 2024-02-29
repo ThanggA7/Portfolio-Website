@@ -40,12 +40,14 @@ a {
 /* Header */
 .header.fixed {
   position: sticky;
-  top: -10px;
+  top: -5px;
   z-index: 1;
 }
 .header {
   background-color: #fff;
-  padding-top: 62px;
+}
+.header__nav {
+  padding: 30px 0;
 }
 .logo {
   display: flex;
@@ -200,7 +202,8 @@ a {
 /* Project */
 
 .project {
-  padding-top: 135px;
+  margin-top: 130px;
+  padding-top: 80px;
 }
 
 .protject__title {

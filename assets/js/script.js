@@ -17,21 +17,17 @@ btns.forEach(function (btn) {
 function filterProjects(e) {
   var category = this.dataset.category;
 
-  // Lấy tất cả các dự án
   var projects = document.querySelectorAll(".item--project");
 
-  // Lặp qua tất cả các dự án và ẩn chúng
   projects.forEach(function (project) {
     project.style.display = "none";
   });
 
-  // Nếu danh mục là 'all', hiển thị tất cả các dự án
   if (category === "all") {
     projects.forEach(function (project) {
       project.style.display = "block";
     });
   } else {
-    // Nếu không, hiển thị tất cả các dự án thuộc danh mục đã chọn
     var selectedProjects = document.querySelectorAll(
       ".item--project." + category
     );
@@ -40,3 +36,11 @@ function filterProjects(e) {
     });
   }
 }
+const buttons = document.querySelectorAll(".button");
+
+buttons.forEach((button) => {
+  button.addEventListener("click", () => {
+    buttons.forEach((btn) => btn.classList.remove("active"));
+    button.classList.add("active");
+  });
+});
