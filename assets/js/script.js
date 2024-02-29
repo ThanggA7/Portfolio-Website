@@ -44,3 +44,44 @@ buttons.forEach((button) => {
     button.classList.add("active");
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const name = document.getElementById("name");
+  const email = document.getElementById("email");
+  const message = document.getElementById("message");
+  const submit = document.getElementById("submit");
+
+  submit.addEventListener("click", () => {
+    const data = {
+      nameData: name.value,
+      mailData: email.value,
+      messageData: message.value,
+    };
+
+    if (data.nameData && data.mailData && data.messageData) {
+      postGoogle(data);
+    } else {
+      alert("Thieu");
+    }
+  });
+});
+
+async function postGoogle(data) {
+  const formURL =
+    "https://docs.google.com/forms/d/e/1FAIpQLScdj-04B8749mexEbbS0fGce7FlBvoQ-fE_kgermIWtKZ1sbQ/formResponse";
+  const postName = "entry.1168536969";
+  const postMail = "entry.36760840";
+  const postMessage = "entry.755376585";
+  const formData = new FormData();
+  formData.append(postName, data.nameData);
+  formData.append(postMail, data.mailData);
+  formData.append(postMessage, data.messageData);
+  try {
+    await fetch(formURL, {
+      method: "POST",
+      body: formData,
+    });
+  } catch {
+    console.error("Lỗi");
+  }
+}
