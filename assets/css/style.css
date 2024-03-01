@@ -402,6 +402,7 @@ label {
   font-weight: 900;
 }
 .testimonial__row {
+  gap: 61px;
   margin-top: 141px;
   display: flex;
   align-items: center;
@@ -409,6 +410,7 @@ label {
 }
 
 .testimonial__item {
+  width: 570px;
   height: 280px;
   border-radius: 20px;
   background-color: #263138;
