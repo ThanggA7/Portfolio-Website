@@ -127,6 +127,13 @@ a {
   margin-top: 100px;
 }
 
+.btn:hover {
+  background-color: #fff;
+  color: black;
+  border: #010305 1px solid;
+  transition: all 0.5;
+}
+
 /* Skill */
 .skill {
   padding-top: 50px;
@@ -363,4 +370,97 @@ label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
+}
+
+/* testimonial */
+.testimonial {
+  padding-top: 90px;
+}
+.testimonial__info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: right;
+}
+.testimonial__info--desc {
+  color: #445964;
+  width: 398px;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+.testimonial__info__title {
+  width: 338px;
+  color: #445964;
+  font-size: 6.4rem;
+  font-weight: 900;
+  margin-left: 102px;
+}
+
+.testimonial__info__title span {
+  color: #010305;
+  font-size: 6.4rem;
+  font-weight: 900;
+}
+.testimonial__row {
+  margin-top: 141px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.testimonial__item {
+  height: 280px;
+  border-radius: 20px;
+  background-color: #263138;
+}
+
+.name {
+  margin-top: 37px;
+  color: #445964;
+  font-size: 3.6rem;
+  font-weight: 900;
+  text-align: center;
+}
+
+.desc {
+  margin-top: 25px;
+  width: 459px;
+  color: #fff;
+  text-align: center;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.testimonial__quote {
+  margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote--desc {
+  width: 610px;
+  color: #445964;
+  text-align: center;
+  font-style: 2.4rem;
+  font-weight: 500;
+}
+
+.author {
+  margin-top: 10px;
+  color: #263138;
+  text-align: center;
+  font-size: 3.6rem;
+  font-weight: 900;
+}
+
+.footer {
+  margin-top: 100px;
+}
+.footer-info {
+  background-color: #263138;
+}
+.footer__desc {
+  color: white;
+  text-align: center;
+  padding: 20px;
 }
