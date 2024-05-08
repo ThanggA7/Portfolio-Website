@@ -1,0 +1,152 @@
+.card-discord-profile {
+  width: 600px;
+  min-height: 750px;
+  border: 4px solid #ed2b27;
+  border-radius: 10px;
+  background-color: #690908;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.discord__banner {
+  &-img {
+    width: 100%;
+    height: 212px;
+    object-fit: cover;
+  }
+}
+
+.card__avatar {
+  display: flex;
+  position: absolute;
+  margin: -70px 0 0 20px;
+  position: relative;
+  &-img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  &-banner {
+    position: absolute;
+    left: -8px;
+    width: 135px;
+    height: 130px;
+    object-fit: cover;
+  }
+}
+
+.brade {
+  margin: 70px 0 0 10px;
+  display: flex;
+  align-items: center;
+  &__icon {
+    padding: px 10px;
+    background-color: #3b0303;
+    border-radius: 5px;
+  }
+  &__img {
+    width: 24px;
+    height: 24px;
+  }
+}
+.card__info {
+  padding: 20px;
+
+  &--name {
+    color: #dbdee2;
+    font-size: 1.7rem;
+    line-height: 1.2;
+    font-weight: 500;
+  }
+
+  &--nickname {
+    margin-top: 10px;
+    color: #dbdee2;
+    font-size: 1.3rem;
+  }
+  &--desc {
+    margin-top: 10px;
+    color: #dbdee2;
+    font-size: 1.4rem;
+  }
+
+  &--content {
+    max-height: 300px;
+    overflow: auto;
+  }
+  &--roles{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+.card__info--bio {
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #3b0303;
+}
+.line {
+  margin-top: 20px;
+  width: 100%;
+  height: 1px;
+  background-color: #dedede;
+  opacity: 0.2;
+}
+.skill__title {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  color: #dbdee2;
+  font-weight: 500;
+}
+.skill_img {
+  margin-top: 20px;
+}
+
+.social_img {
+  width: 30px;
+  height: 30px;
+}
+
+.social__media {
+  
+  border-radius: 5px;
+  margin-top: 15px;
+  font-weight: 550;
+  width: 200px;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  gap: 7px;
+  border: 1px solid #dedede;
+}
+
+.social__title {
+  margin-top: 15px;
+  font-size: 1.8rem;
+  color: #dbdee2;
+  font-weight: 500;
+}
+
+.fan {
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 90px;
+}
+
+.job {
+  border-radius: 5px;
+  border: 1px solid white;
+  width: 145px;
+}
+
+
+.roles {
+
+  padding: 7px;
+  color: white;
+  font-size: 1.1rem;
+}

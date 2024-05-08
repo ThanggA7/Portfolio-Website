@@ -1,0 +1,12 @@
+{
+  "name": "discord-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "npx sass scss:assets/css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

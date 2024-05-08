@@ -3,407 +3,218 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thang Luu Nhu</title>
-    <link rel="stylesheet" href="./assets/css/reset.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/responsive.css" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
   </head>
   <body>
-    <header class="header fixed">
-      <div class="content">
-        <div class="body">
-          <nav class="header__nav">
-            <div class="logo">
-              <img src="./assets/icons/logo.svg" alt="" />
-              <span class="logo__name">Nhu Thang Luu</span>
-            </div>
-            <!-- Tablet Mobile Menu -->
-            <label class="toggle-menu" for="menu-checkbox">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                <path
-                  fill="currentColor"
-                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
-                />
-              </svg>
-            </label>
-            <ul class="nav__menu">
-              <li class="nav__menu--item">
-                <a href="#home">Home</a>
-              </li>
-              <li class="nav__menu--item">
-                <a href="#abt">About</a>
-              </li>
-              <li class="nav__menu--item">
-                <a href="#prj">Project</a>
-              </li>
-              <li class="nav__menu--item">
-                <a href="#ctc">Contact</a>
-              </li>
-              <li class="nav__menu--item">
-                <a href="#tst">Testimonial</a>
-              </li>
-              <li class="nav__menu--item">
-                <a href="#!">Resume</a>
-              </li>
-            </ul>
-          </nav>
+    <div class="card-discord-profile">
+      <div class="card__discord">
+        <div class="card__banner">
+          <img
+            src="https://cdn.discordapp.com/banners/868875618815713290/a_0d58b95b7c6e2a6fdfdc695dcb1d6cc8.gif?size=600"
+            alt="discord__banner"
+            class="discord__banner-img"
+          />
         </div>
-      </div>
-    </header>
-    <!-- Tablet/Mobile Header -->
-    <header class="mobile-header">
-      <input
-        hidden
-        type="checkbox"
-        name=""
-        id="menu-checkbox"
-        class="menu-checkbox"
-      />
-      <label for="menu-checkbox" class="menu-overlay"></label>
-      <div class="menu-drawer">
-        <div class="logo">
-          <label class="close" for="menu-checkbox">
-            <span class="logo__name">Noazuynh</span>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-              <path
-                d="M256 48a208 208 0 1 1 0 416 208 208 0 1 1 0-416zm0 464A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c-9.4 9.4-9.4 24.6 0 33.9l47 47-47 47c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l47-47 47 47c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-47-47 47-47c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-47 47-47-47c-9.4-9.4-24.6-9.4-33.9 0z"
+        <div class="card__avatar">
+          <img
+            src="https://scontent.fsgn2-6.fna.fbcdn.net/v/t1.6435-9/197046339_2994347424145241_2744581180335011082_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFKhe9ZLFNj8dF5onWFSlrBA5SNwwT-aGEDlI3DBP5oYfzbJYWWWZGt-CI_YC179vREIADWsq_7TS85A-uSD8U0&_nc_ohc=8WgEKJaGV1EQ7kNvgEZpAa-&_nc_ht=scontent.fsgn2-6.fna&oh=00_AfCL1HH1MfKfc17NqVXWsrvcr0NRBQTPAKaB_Hd_eYMfdw&oe=6662FBFA"
+            alt="card__avatar"
+            class="card__avatar-img"
+          />
+
+          <img
+            src="https://cdn.discordapp.com/avatar-decoration-presets/a_3c97a2d37f433a7913a1c7b7a735d000.png?size=160&passthrough=true"
+            alt="card__avatar"
+            class="card__avatar-banner"
+          />
+
+          <div class="brade">
+            <div class="brade__icon">
+              <img
+                src="https://cdn.discordapp.com/badge-icons/3aa41de486fa12454c3761e8e223442e.png"
+                alt=""
+                class="brade__img brade__img--hype"
               />
-            </svg>
-          </label>
-        </div>
-        <ul class="">
-          <li class="">
-            <a href="#home">Home</a>
-          </li>
-          <li class="">
-            <a href="#abt">About</a>
-          </li>
-          <li class="">
-            <a href="#prj">Project</a>
-          </li>
-          <li class="">
-            <a href="#ctc">Contact</a>
-          </li>
-          <li class="">
-            <a href="#tst">Testimonial</a>
-          </li>
-          <li class="line">
-            <a href="#!">Resume</a>
-          </li>
-          <li class="line">
-            <a href="#!">Github</a>
-          </li>
-          <li class="">
-            <a href="#!">Linkedin</a>
-          </li>
-          <li class="">
-            <a href="#!">Instagram</a>
-          </li>
-        </ul>
-      </div>
-    </header>
-    <main>
-      <div class="hero">
-        <div class="content">
-          <div class="hero__body">
-            <div class="hero__info">
-              <div class="info__introduce">
-                <span>Hello Everyone,</span>
-                <h2 class="info__title">I'M A DEVELOPER</h2>
-                <p class="info__desc">Welcome to my portfolio website</p>
-              </div>
-              <div class="hero__info--action">
-                <a href="https://www.facebook.com/nhuthanggg/" class="btn"
-                  >About Me
-                </a>
-              </div>
-
-              <div class="hero__info--social">
-                <a href="https://github.com/thangga7">
-                  <img src="./assets/icons/Git.svg" alt="" />
-                </a>
-                <a href="https://www.linkedin.com/in/nhuthangluu/">
-                  <img src="./assets/icons/Linkedin.svg" alt="" />
-                </a>
-                <a href="https://www.instagram.com/nhuthangl24/">
-                  <img src="./assets/icons/Instagram.svg" alt="" />
-                </a>
-              </div>
-            </div>
-            <div class="hero__media">
-              <img src="./assets/img/hero_img.svg" alt="" />
+              <img
+                src="https://cdn.discordapp.com/badge-icons/2ba85e8026a8614b640c2837bcdfe21b.png"
+                alt=""
+                class="brade__img brade__im--nitro"
+              />
+              <img
+                src="https://cdn.discordapp.com/badge-icons/51040c70d4f20a921ad6674ff86fc95c.png"
+                alt=""
+                class="brade__img brade__img--boost"
+              />
+              <img
+                src="https://cdn.discordapp.com/badge-icons/6de6d34650760ba5551a79732e98ed60.png"
+                alt=""
+                class="brade__img brade__img--nick_name"
+              />
             </div>
           </div>
         </div>
-      </div>
-      <div id="abt" class="skill">
-        <div class="skill__content">
-          <div class="skill__avatar">
-            <img
-              class="skill__avatar--img"
-              src="./assets/img/avatar.jpeg"
-              alt=""
-            />
-          </div>
-          <div class="skill__info">
-            <div class="skill_info--title"><span>Luu Nhu</span> Thang</div>
-            <div class="skill__info--desc">
-              My name is NhuThang, and I am currently living and studying in the
-              beautiful city of Da Nang. I have a strong passion for Front-End
-              development and am always striving to improve my knowledge and
-              skills in this field.
-            </div>
-          </div>
-          <div class="skill_info--title">Hard <span>Skills</span></div>
 
-          <div class="skill__listskill--1">
-            <div class="listskill__item">
-              <div class="listskill__item--name">HTML</div>
-              <div class="item__skill">
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-              </div>
+        <div class="card__info">
+          <div class="card__info--bio">
+            <div>
+              <h1 class="card__info--name">Noazuynh | Lưu Như Thắng</h1>
+              <p class="card__info--nickname">Noazuynh</p>
+              <p class="card__info--desc">Healing with taiwind .....</p>
             </div>
-            <div class="listskill__item">
-              <div class="listskill__item--name">CSS</div>
-              <div class="item__skill">
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-              </div>
-            </div>
-            <div class="listskill__item">
-              <div class="listskill__item--name">JS</div>
-              <div class="item__skill">
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-              </div>
-            </div>
-            <div class="listskill__item">
-              <div class="listskill__item--name">React JS</div>
-              <div class="item__skill">
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="skill__listskill--2">
-            <div class="listskill__item">
-              <div class="listskill__item--name">Figma</div>
-              <div class="item__skill">
-                <div class="item__skill">
-                  <img src="./assets/icons/skill_item.svg" alt="" />
-                  <img src="./assets/icons/skill_item.svg" alt="" />
-                  <img src="./assets/icons/skill_item.svg" alt="" />
-                  <img src="./assets/icons/skill_item.svg" alt="" />
-                  <img src="./assets/icons/skill_item.svg" alt="" />
+            <div class="line"></div>
+
+            <div class="card__info--content">
+              <div class="card__info--skill">
+                <h2 class="skill__title">My Skill</h2>
+                <div class="row">
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=html"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=css"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=js"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=docker"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=react"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=figma"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=sass"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=ts"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=py"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=postman"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=nodejs  "
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
+                  <div class="col-lg-2 col-md-2 col-3">
+                    <img
+                      src="https://skillicons.dev/icons?i=mongodb"
+                      alt=""
+                      class="skill_img"
+                    />
+                  </div>
                 </div>
               </div>
-            </div>
-            <div class="listskill__item">
-              <div class="listskill__item--name">C++</div>
-              <div class="item__skill">
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
+              <h2 class="social__title">Roles</h2>
+              <div class="card__info--roles">
+             
+                 <div class="fan">
+                  <p class="roles">Barcelona ♥️ </p>
+                 </div>
+
+                 <div class="fan">
+                  <p class="roles">Leo Messi 🐐</p>
+                 </div>
+                  
+                 <div class="job">
+                  <p class="roles">Frontend Developer 💻</p>
+                 </div>
               </div>
 
-              <img src="" alt="" />
-            </div>
-            <div class="listskill__item">
-              <div class="listskill__item--name">Mongo DB</div>
-              <div class="item__skill">
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-                <img src="" alt="" />
-              </div>
-            </div>
-            <div class="listskill__item">
-              <div class="listskill__item--name">Java</div>
-              <div class="item__skill">
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill_item.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-                <img src="./assets/icons/skill.svg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="prj" class="project">
-        <div class="content">
-          <h2 class="protject__title">My</h2>
-          <div class="project__desc">
-            <h2 class="project__desc-title">Project</h2>
-            <p class="project__desc--desc">
-              These are some of the works and projects I have already carried
-              out
-            </p>
-          </div>
-          <div class="project__name">
-            <div class="project__button">
-              <button class="button" type="button" data-category="all">
-                All
-              </button>
-              <button class="button" type="button" data-category="webapp">
-                Web App
-              </button>
-              <button class="button" type="button" data-category="data">
-                Data Analysis
-              </button>
-              <button class="button" type="button" data-category="Others">
-                Others
-              </button>
-            </div>
-
-            <div class="content--project">
-              <div class="project__list">
-                <div class="project__list--item">
-                  <div class="item--project data webapp"></div>
-                  <div class="item--project item--1 data"></div>
-                </div>
-                <div class="project__list--item">
-                  <div class="item--project item--2 data"></div>
-                  <div class="item--project data"></div>
-                </div>
-                <div class="project__list--item">
-                  <div class="item--project webapp"></div>
-                  <div class="item--project item--3"></div>
+              <div class="card__info--social">
+                <h2 class="social__title">Social Media</h2>
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-xl-6 col-6">
+                    <a class="social__media" href="#!">
+                      <img
+                        src="./assets/icons/fb.png"
+                        alt=""
+                        class="social_img"
+                      />Lưu Như Thắng</a
+                    >
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-xl-6 col-6">
+                    <a class="social__media" href="#!">
+                      <img
+                        src="./assets/icons/ig.png"
+                        alt=""
+                        class="social_img"
+                      />Nhuthangl24</a
+                    >
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-xl-6 col-6">
+                    <a class="social__media" href="#!">
+                      <img
+                        src="./assets/icons/github.png"
+                        alt=""
+                        class="social_img"
+                      />Thangga7</a
+                    >
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-xl-6 col-6">
+                    <a class="social__media" href="#!">
+                      <img
+                        src="./assets/icons/linkedin.png"
+                        alt=""
+                        class="social_img"
+                      />Luu Nhu Thang</a
+                    >
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <section id="ctc" class="contact">
-        <div class="content">
-          <div class="contact-intro">
-            <h2 class="contact__title">Contact</h2>
-            <p class="section-lead">
-              Send me a message! Your email address will not be shared. Required
-              fields are marked with a
-              <span class="red-text">*</span>.
-            </p>
-          </div>
-
-          <div class="contact__form">
-            <form class="contact-form">
-              <div class="contact__row">
-                <fieldset id="contact-form-name">
-                  <label for="name">Name<span class="red-text">*</span></label>
-                  <input
-                    type="text"
-                    name="name"
-                    id="name"
-                    placeholder="Luu Nhu Thang"
-                    required
-                  />
-                </fieldset>
-                <fieldset id="contact-form-email">
-                  <label for="email"
-                    >Email<span class="red-text">*</span></label
-                  >
-                  <input
-                    type="email"
-                    name="email"
-                    id="email"
-                    placeholder="nhuthang@example.com"
-                    required
-                  />
-                </fieldset>
-              </div>
-
-              <fieldset id="contact-form-message">
-                <label for="message"
-                  >Message<span class="red-text">*</span></label
-                >
-                <textarea
-                  name="message"
-                  id="message"
-                  placeholder="Dien vao day bat cu yeu cau gi ma ban muon !"
-                  cols="30"
-                  rows="18"
-                  required
-                ></textarea>
-              </fieldset>
-              <div id="form" class="contact__button">
-                <input
-                  type="button"
-                  id="submit"
-                  class="contact-form-submit"
-                  value="Send Message"
-                />
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-      <div id="tst" class="testimonial">
-        <div class="content">
-          <div class="testimonial__info">
-            <p class="testimonial__info--desc">
-              "Chúng ta phải học, phải cố gắng học nhiều. Không chịu khó học thì
-              không tiến bộ được. Không tiến bộ là thoái bộ..." <br />
-              -Hồ Chí Minh-
-            </p>
-            <h2 class="testimonial__info__title">
-              My
-              <span>Testimonial</span>
-            </h2>
-          </div>
-          <div class="testimonial__row">
-            <div class="testimonial__item">
-              <div class="info-block">
-                <h2 class="name">Vy Nguyen</h2>
-                <p class="desc">no data</p>
-              </div>
-            </div>
-            <div class="testimonial__item">
-              <div class="info-block">
-                <h2 class="name">Minh Chi Phung</h2>
-                <p class="desc">no data</p>
-              </div>
-            </div>
-            <div class="testimonial__item">
-              <div class="info-block">
-                <h2 class="name">Thuc Nhi Ton Nu</h2>
-                <p class="desc">no data</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="testimonial__quote">
-            <img src="./assets/icons/right-quote 1.svg" alt="" />
-            <p class="quote--desc">“HỌC, HỌC NỮA, HỌC MÃI”</p>
-            <p class="author">~ Vladimir Ilyich Lenin</p>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer class="footer">
-      <div class="footer-info">
-        <p class="footer__desc">
-          © Copyright Luu Nhu Thang | https://thangluunhu.xyz
-        </p>
-      </div>
-    </footer>
-    <script src="./assets/js/script.js"></script>
+    </div>
   </body>
 </html>
